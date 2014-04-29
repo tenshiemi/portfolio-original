@@ -1,0 +1,237 @@
+/* == INDEX == */
+
+
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/** Global **/
+
+body
+{
+  background:white;
+}
+
+.page-content
+{
+  font-family:futura;
+  font-size:15px;
+  float:left;
+  width:70%;
+  margin:5px;
+  padding:30px;
+  background:white;
+  border-radius: 1.6em;
+}
+
+#container 
+{
+ width: 960px;
+ margin:auto;
+}
+
+/** Font styles **/
+
+a
+{
+ color:#414141; 
+ text-decoration: none;
+}
+
+h1
+{
+  font-family:Parisienne;
+  font-size:75px;
+  color:#7F528C;
+}
+
+h2
+{
+  font-family:futura;
+  font-size:35px;
+}
+
+h3
+{
+  font-family:futura;
+  font-size:20px;
+}
+
+h4
+{
+  font-family:futura;
+  font-size:17px;
+}
+
+p 
+{
+  font-family:futura;
+  color:#414141;
+}
+
+/** Content styles **/
+
+img
+{
+  border:2px solid thin;
+  border-radius: 0.2em;
+  margin:auto;
+  position: absolute;
+}
+
+#main_image
+{
+  border:2px solid thin;
+  border-radius: 0.2em;
+  margin:auto;
+  
+}
+
+#about-me
+{
+
+}
+
+#me 
+{
+  position:relative;
+  left:450px;
+  overflow: auto;
+  width: 445px;
+}
+
+#resume
+{
+  position:absolute;
+  overflow: auto;
+  width:600px;
+}
+
+#resume_sidebar
+{
+  position:relative;
+  left:600px;
+  overflow: auto;
+  width: 300px;
+}
+
+/** Header and nav styles **/
+
+#header-wrapper
+{
+  background: white;
+  height:125px;
+  padding:10px;
+  margin:5px;
+  border-bottom: solid thin #C4C4C4;
+}
+
+nav
+{
+  float:right;
+  height:103px;
+}
+
+nav a 
+{
+  color:#3A2540;
+}
+
+nav ul 
+{
+  list-style-type: none;
+  vertical-align: bottom;
+}
+
+nav li
+{
+  margin-right: 20px;
+  font-family:Parisienne;
+  font-size: 30px;
+}
+
+.selected-nav
+{
+  width: 66px;
+  background-color:#dedede;
+  border-radius: 20em;
+}
+
+#site-title {
+  float:left;
+  width:300px;
+  vertical-align: relative 20px;
+  color:#7F528C;
+}
+
+/** Misc **/
+
+#list
+{
+  color:blue;
+}
+
+#modal-popup
+{
+  background:purple;
+  z-index:100;
+  height:100px;
+  width:300px;
+  position:fixed;
+  top:100px;
+  left:300px;
+}
+
+.sidebar
+{
+  float:right;
+  width:20%;
+  margin:5px;
+  padding:10px;
+  background:white;
+  border-radius: 1.6em;
+}

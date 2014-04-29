@@ -1,0 +1,152 @@
+/** Global **/
+
+body
+{
+  font-family: futura;
+}
+
+.page-content
+{
+  margin: 30px;
+  padding-bottom: 15px;
+}
+
+/** Font styles **/
+
+a
+{
+
+}
+
+h1
+{
+  font-size: 75px;
+}
+
+h2
+{
+  font-size: 35px;
+}
+
+h3
+{
+  font-size: 20px;
+}
+
+h4
+{
+  font-size: 15px;
+}
+
+p 
+{
+  color: #414141;
+}
+
+td
+{
+  padding-right: 5px;
+}
+
+#sidebar ul li
+{
+  list-style: none;
+  margin-left: -40px;
+}
+
+/** Content styles **/
+
+#footer
+{
+  background: white;
+  border-top: solid thin #C4C4C4;
+  bottom: 0px;
+  color: #777;
+  font-size: 11px;
+  left: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  position: fixed;
+  padding: 3px;
+  right: 0px
+}
+
+#logo a
+{
+  color: #7F528C;
+  font-family: Parisienne;
+  font-size: 75px;
+}
+
+#logo a:hover {text-decoration: none;}  
+
+#logo-sm a
+{
+  color: #7F528C;
+  font-family: Parisienne;
+  font-size: 40px;
+}
+
+#main-image
+{
+  border:2px solid thin;
+  border-radius: 0.2em;
+  height: auto;
+  margin:auto; 
+  width: 100%
+}
+
+#profile-pic
+{
+  border: 2px solid thin;
+  border-radius: 0.2em;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  width: 90%;
+}
+
+#sidebar ul li
+{
+  list-style: none;
+  margin-left: -40px;
+}
+
+/** Header and nav styles **/
+
+#header-wrapper
+{
+  margin: 5px;
+}
+
+#nav-styles
+{
+  color: #414141;
+  font-family: Parisienne;
+  font-size: 30px;
+  list-style-type: none;
+  vertical-align: bottom;
+}
+
+#nav-styles a
+{
+  color: #414141;
+  font-family: Parisienne;
+  font-size: 30px;
+}
+
+nav ul li a:link {color :#414141; text-decoration: none}      /* unvisited link */
+nav ul li a:visited {color:#414141; text-decoration: none}  /* visited link */
+nav ul li a:hover {color:#414141; text-decoration: none}  /* mouse over link */
+nav ul li a:active {color:#414141; text-decoration: none}  /* selected link */
+
+.selected-nav
+{
+  width: 66px;
+  background-color: #dedede;
+  border-radius: 20em;
+}
+
+/** Misc **/
+

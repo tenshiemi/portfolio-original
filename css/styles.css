@@ -1,0 +1,122 @@
+/** Global **/
+
+body
+{
+  font-family: futura;
+}
+
+.page-content
+{
+  margin: 5px;
+}
+
+
+/** Font styles **/
+
+a
+{
+
+}
+
+h1
+{
+  font-size: 75px;
+}
+
+h2
+{
+  font-size: 35px;
+}
+
+h3
+{
+  font-size: 20px;
+}
+
+p 
+{
+  color: #414141;
+}
+
+/** Content styles **/
+
+img
+{
+  border: 2px solid thin;
+  border-radius: 0.2em;
+  margin: auto;
+  position: absolute;
+}
+
+#logo
+{
+  color: #7F528C;
+  font-family: Parisienne;
+  font-size: 75px;
+}
+
+#logo-sm
+{
+  color: #7F528C;
+  font-family: Parisienne;
+  font-size: 40px;
+}
+
+#logo a:hover {text-decoration: none;}  
+
+#main_image
+{
+  
+}
+
+#about-me
+{
+
+}
+
+#me 
+{
+
+}
+
+/** Header and nav styles **/
+
+#header-wrapper
+{
+  margin: 5px;
+}
+
+#nav_styles
+{
+  color: #414141;
+  font-family: Parisienne;
+  font-size: 30px;
+  list-style-type: none;
+  vertical-align: bottom;
+}
+
+nav ul li a:link {color :#414141; text-decoration: none}      /* unvisited link */
+nav ul li a:visited {color:#414141; text-decoration: none}  /* visited link */
+nav ul li a:hover {color:#414141; text-decoration: none}  /* mouse over link */
+nav ul li a:active {color:#414141; text-decoration: none}  /* selected link */
+
+.selected-nav
+{
+  width: 66px;
+  background-color: #dedede;
+  border-radius: 20em;
+}
+
+#site-title {
+
+}
+
+/** Misc **/
+
+}
+
+.sidebar
+{
+
+
+}
